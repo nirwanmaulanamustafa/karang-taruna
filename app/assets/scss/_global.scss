@@ -1,0 +1,32 @@
+:root {
+    // --background: #ffffff;
+    // --foreground: #171717;
+}
+
+  // 56 bold nunito
+  // 42 bold nunito
+  // 32 bold nunito
+  // 28 bold nunito
+  // 20 bold nunito
+  // 20 regular nunito
+  
+  // 24 regular poppins
+  // 18 regular poppins
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      // --background: #0a0a0a;
+      // --foreground: #ededed;
+    }
+  }
+  
+  body {
+    // color: var(--foreground);
+    // background: var(--background);
+    // font-family: Arial, Helvetica, sans-serif;
+  }
+
+  *{
+    border: 1px solid red;
+  }
+  
