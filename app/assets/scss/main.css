@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.button-registrasi {
+  background-color: #1D297F;
+  color: #fefefe;
+  @apply px-[18px] py-[7px] rounded-[8px] items-center text-[14px] gap-1;
+}
+
 * {
-  border: 1px solid red;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-import Navbar from "../components/headerComponent/Navbar";
+import Navbar from "../components/headerComponent/NavbarSticky";
 
 export default function Home() {
   return (

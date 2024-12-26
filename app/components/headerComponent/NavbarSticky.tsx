@@ -5,7 +5,8 @@ import Image from 'next/image';
 const Navbar: React.FC = () => {
   return (
     <header className="bg-gray-800 text-white font-nunito">
-      <div className="flex items-center justify-between px-[181px] py-[15px]">
+
+      <div className="items-center justify-items-center grid gap-[12px] px-[181px] py-[15px]">
         <div className="flex items-center gap-2">
           <div style={{ width: '64px', height: '64px', position: 'relative' }}>
             <Image
@@ -27,8 +28,9 @@ const Navbar: React.FC = () => {
           </div>
         </div>
         
+      <div className='flex items-center gap-[48px]'>
         <nav className="flex-grow">
-          <ul className="flex justify-center space-x-4">
+          <ul className="flex justify-center space-x-[32px]">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/tentang">Tentang</Link></li>
             <li><Link href="/kegiatan">Kegiatan</Link></li>
@@ -52,6 +54,8 @@ const Navbar: React.FC = () => {
           <p>Anggota Baru</p>
         </Link>
         </div>
+      </div>
+
       </div>
     </header>
   );
