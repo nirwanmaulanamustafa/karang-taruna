@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 
-$text-color1: #0c0d36;
-$text-color2: #9191a9;
+$hitam: #323232;
 $putih: #fefefe;
-$hijau: #29a867;
 $blue-dark: #1D297F;
+$orange : #EF6C3D;
 
 
 @import "global";
+@import "button";

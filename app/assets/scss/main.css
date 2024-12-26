@@ -1,13 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.button-registrasi {
-  background-color: #1D297F;
+h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.link-sticky {
+  color: #ffffff; /* Warna default */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.link-sticky:hover {
+  color: #EF6C3D;
+}
+.link-sticky.active {
+  font-weight: bold;
   color: #fefefe;
-  @apply px-[18px] py-[7px] rounded-[8px] items-center text-[14px] gap-1;
+  border-bottom: 2px solid #EF6C3D;
 }
 
 * {
   padding: 0;
   margin: 0;
+}
+
+.button-registrasi {
+  background-color: #1D297F;
+  color: #fefefe;
+  @apply px-[18px] py-[7px] rounded-[8px] items-center text-[14px] gap-1;
 }/*# sourceMappingURL=main.css.map */
